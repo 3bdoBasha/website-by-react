@@ -3,21 +3,7 @@ import TagButton from "./TagButton"
 
 export default function SideMenu(){
     return(
-        <div className="sidebar">
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
-            <TagButton />
+        <div style={{border: "teal solid 5px",padding:"20px",height:"270px",width:"30%",margin: "20px"}}>
             <TagButton />
             <TagButton />
             <TagButton />

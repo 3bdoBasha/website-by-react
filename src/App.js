@@ -13,7 +13,9 @@ function App() {
     <Post />
     <Post />
     <Post />
-    <SideMenu />
+    <div style={{display: "flex",justifyContent: "right",marginTop: "-50%",padding:"5px"}}>   
+      <SideMenu />
+    </div>
     </div>
   );
 }
