@@ -1,7 +1,11 @@
 import "./App.css"
 
-export default function TagButton(){
+export default function TagButton({content,children}){
     return(
-        <button id="tag">Tag Button</button>
+        <button id="tag">
+            {content}
+            {children}
+        </button>
+        
     )
 }
