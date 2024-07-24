@@ -2,9 +2,20 @@
 
 
 * {
-  font-family: "Readex Pro", sans-serif;
+  /* font-family: "Readex Pro", sans-serif; */
+  font-family: Cairo;
   box-sizing: border-box;
   font-size: 25px;
+  font-weight: 550;
+  color: white;
+}
+
+body{
+  background-image: url("./imgs/bg3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
 }
 
 #flower {
@@ -17,6 +28,7 @@
   height: 100px;
   
 }
+
 
 header {
   background-color: teal;
@@ -35,6 +47,19 @@ header h1 {
 
 }
 
+.post {
+  background: #0e0b33;
+  color: white;
+  border-radius: 5px;
+  padding: 10px;
+  border: solid teal 5px;
+  width: 50%;
+  margin: 25px;
+}
+
+.post span{
+  color: white;
+}
 
 #tag {
   background-color: purple;
@@ -53,4 +78,48 @@ header h1 {
 
 #tag:hover {
   background-color: #d423bc;
+}
+
+#like-btn{
+  cursor: pointer;
+  padding: 5px;
+  background-color: #1848cc;
+  border: none;
+  width: 100px;
+  border-radius: 8px;
+  color: rgb(211, 208, 208);
+  transition: 0.4s;
+}
+
+#like-btn:hover{
+  background-color: #134be7;
+  color: white;
+}
+
+.sidebar{
+  background-color: #0e0b33;
+  margin-bottom: -100px;
+  width: 80%;
+  height: 600px;
+  border-radius: 10px;
+  padding: 5px;
+}
+
+.side{
+  position: relative;
+  left: 75%;
+  margin-top: -90%;
+  padding: 5px;
+}
+
+
+#game{
+  width:100px;
+  height: 50px;
+}
+
+#post-header{
+  display: flex;
+  padding: 5px;
+  justify-content: center;
 }

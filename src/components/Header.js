@@ -1,9 +1,9 @@
-import "./App.css"
+import "../App.css"
 
 export default function Header(){
     return (
         <header>
-            <h1>Tarmeez Acadamey</h1>
+            <h1>Programming Articles 🛠️</h1>
         </header>
     );
 }
