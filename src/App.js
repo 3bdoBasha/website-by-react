@@ -34,33 +34,6 @@ const myPosts = posts.map((post) => {
   return (
     <div>
     <Header />
-    {/* <Post head="لقد صنعت نواة لينكس ما رأيكم بها؟؟" views="30 Views" content="Writed By Abdo">
-    <div>
-        <br></br>
-        <button id="like-btn" onClick={()=>{setCount(count + 1)}}>Like💖</button>
-        <br></br>
-        <br></br>
-        <span>Likes: {count}</span>
-      </div>
-    </Post>
-    <Post head="أحب البرمجة هل من أحد يعطيني نصائح؟؟" content="Writed By Ahmed" views="50 Views">
-    <div>
-        <br></br>
-        <button id="like-btn" onClick={()=>{setCount2(count2 + 1)}}>Like💖</button>
-        <br></br>
-        <br></br>
-        <span>Likes: {count2}</span>
-      </div>
-    </Post> 
-    <Post head="🛠️الحل لجميع مشاكل البرمجة تعلم أساسياتها أولا ، ثم الإتجاه للمسار الذي تريد" content="Writed By The Web Developer (Abdulrhaman)" views="100 Views">
-      <div>
-        <br></br>
-        <button id="like-btn" onClick={()=>{setCount3(count3 + 1000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000)}}>Like💖</button>
-        <br></br>
-        <br></br>
-        <span>Likes: {count3}</span>
-      </div>
-    </Post> */}
     <div className="side">   
       <SideMenu />
     </div>
